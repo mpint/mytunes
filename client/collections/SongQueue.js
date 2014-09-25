@@ -16,7 +16,6 @@ var SongQueue = Songs.extend({
       }
     });
 
-
   },
   // Only play if it is the first item in the SongQueue collection
   playFirst: function() {
