@@ -11,7 +11,6 @@ var SongModel = Backbone.Model.extend({
   },
 
   dequeue: function () {
-    console.log(this);
     this.collection.remove(this);
   },
 
